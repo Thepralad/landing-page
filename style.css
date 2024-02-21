@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    gap: 250px;
+    background-color: #1f2937;
+    height: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.head{
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+h4{
+    font-weight: 2000;
+}
+.links {
+    list-style: none;
+    display: flex; /* Make the <ul> a flex container */
+    gap:20px;
+    align-items: center; /* Align items vertically */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.body-one{
+    display: flex;
+}
+img{
+    border: 1px solid green;
+}
