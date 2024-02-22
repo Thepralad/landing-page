@@ -9,6 +9,7 @@ body{
     flex-direction: column;
 }
 
+/* Header */
 .header{
     background-color: #1f2937;
     display: flex;
@@ -40,4 +41,48 @@ a{
     font-weight: 900;
 }
 
-
+/* Body One */
+.body-one{
+    background-color: #1f2937;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    font-family:sans-serif;
+}
+.body-one-body{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+    
+    height: 200px;
+    width: 350px;
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: 200px;
+}
+.body-one-body h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.body-one-body p{
+    font-size: 14px;
+}
+.body-one-body button{
+    background-color: #3882f6;
+    width: 90px;
+    height: 30px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    
+}
+.body-one-body button:hover{
+    background-color: #1a3f79;
+    transition: 0.4s;
+   
+}
+.body-one-img{
+    margin-right: 200px;
+   border: 5px dashed white;
+}
